@@ -11,7 +11,7 @@ def login_user(username, password):
     else:
         print("Invalid credentials")
 
-def issue_book(book_id, student_id):
+
 
 def issue_book(book_id, student_id):
     print("Book", book_id, "issued to student", student_id)
