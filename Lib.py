@@ -11,3 +11,13 @@ def login_user(username, password):
     else:
         print("Invalid credentials")
 
+
+
+def issue_book(book_id, student_id):
+    print("Book", book_id, "issued to student", student_id)
+
+def return_book(book_id, student_id):
+    print("Book", book_id, "returned by student", student_id)
+def view_books():
+    print("Displaying all books")
+
