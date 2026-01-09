@@ -12,4 +12,9 @@ def login_user(username, password):
         print("Invalid credentials")
 
 def issue_book(book_id, student_id):
-    print("Book returned by student", student_id)
+
+def issue_book(book_id, student_id):
+    print("Book", book_id, "issued to student", student_id)
+
+def return_book(book_id, student_id):
+    print("Book", book_id, "returned by student", student_id)
